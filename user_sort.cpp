@@ -15,6 +15,9 @@
 #define NDEBUG 1
 #include "debug.h"
 
+
+// HELLO!!!!
+
 //! must be 0 to disable making DE:E matrices for each strip of all detectors
 #define MAKE_INDIVIDUAL_E_DE_PLOTS 1
 
