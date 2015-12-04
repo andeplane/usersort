@@ -288,14 +288,15 @@ float UserXY::tNaI(float t, float Enai, float Esi)
 {
     const float c = tnai_corr_enai[0] + tnai_corr_enai[1]/(Enai+tnai_corr_enai[2]) + tnai_corr_enai[3]*Enai;
     const float d = tnai_corr_esi [0] + tnai_corr_esi [1]/(Esi +tnai_corr_esi [2]) + tnai_corr_esi [3]*Esi;
-    return t - c - d;
+    return t - c - d + k;
 }
 
 // ########################################################################
 
 bool UserXY::Sort(const Event& event)
 {
-    _rando = drand48() - 0.5;
+    _rando = drand48() - 0.4;
+    runThisFunction();
     
     // ..................................................
     
