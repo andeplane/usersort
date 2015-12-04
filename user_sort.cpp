@@ -38,7 +38,7 @@
 //
 //
 //
-//Setter "ROSEEDIT" der jeg gjør forandringer - 130415
+//Setter "ROSEEDIT" der jeg gjør forandringer - 130416
 //
 class UserXY : public SiriusRoutine {
 public:
